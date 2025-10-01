@@ -1,8 +1,6 @@
-# import os
-# os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
-
 import tensorflow as tf
-from tensorflow.keras import layers, models
+layers = tf.keras.layers
+models = tf.keras.models
 
 (x_train, y_train), (x_test, y_test) = tf.keras.datasets.mnist.load_data()
 
